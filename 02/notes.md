@@ -27,3 +27,16 @@
       - Python 'bisect' implements binary search functions
         - bisect_left(a, x): leftmost offset where x can be inserted in to a to maintain order
     - Hash table
+
+- Suffix index
+  - Sort all suffixes in alphabetical order
+  - Query via binary search
+  - n(n+1)/2 or N^2+1/2
+  - Suffix arry
+    - organizes via ordering
+  - Suffix tree
+    - Unlike suffix array organizes via grouping vs ordering
+  - FM Index
+    - Very compact
+
+
