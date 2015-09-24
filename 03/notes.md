@@ -1,5 +1,5 @@
 - Solving the edit distance problem
-  ```
+
     def edDistRecursive(a, b):
       if len(a) == 0:
         return len(b)
@@ -9,8 +9,25 @@
       return min(edDistRecursive(a[:-1], b[:-1]) + delt,
                  edDistRecursive(a[:-1], b) + 1,
                  edDistRecursive(a, b[:-1]) + 1)
-  ```
+
 - Dynamic program algorithims:
   - Reduce large problems into small ones
   - Optimize out repetition
 
+- Approximate matching
+  - Imagine different lengths (p and t) in a matrix
+  - Initialize row with 0s
+    - We don't know ahead of time where P is going to occur within T
+    - P's offset  could be anywhere in T
+  - Initialize columns with ascending integers
+  - Find the lowest value in the final row, and trace back to the starting co-ordinate (by reversing the rules)
+
+- Global and local alignment
+  - Purines
+    - Adenine & guanine (AG)
+      - Substitutions of this kind are called transitions
+  - Pyrimidines 
+    - Cytosine and Thymine (CT)
+      - Substitutions of this kind are called transitions
+  - Subsitutions between Purines and Pyrimidines are called transverions
+  - Human transition to transversion ratio is ~ 2.1
