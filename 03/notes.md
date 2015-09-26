@@ -31,3 +31,15 @@
       - Substitutions of this kind are called transitions
   - Subsitutions between Purines and Pyrimidines are called transverions
   - Human transition to transversion ratio is ~ 2.1
+
+- Assembly problem:
+  - Reconsturct genome from sequencing reads
+  - Coverage: amount of redunant info we have about the genome
+
+- Two laws of assembly
+  - If a suffix of read A is similar to a prefix of read B then A and B might overlap in the genome
+  - More coverage leads to more and longer overlaps
+
+- Overlap graphs
+  - Each node is a read
+  - Draw directed edge A->B when suffix of A overlaps prefix of B
