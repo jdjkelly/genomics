@@ -12,9 +12,9 @@
   - Use bad character or good suffix rule, whichever skips more
     - implements lookup table for skips
 
-- Preprocessing		 
+- Preprocessing
   - Make lookup tables for bad character * good suffix rules
-  - Tables are reusable
+  - Tables are reusable-
   - Cost of preprocessing is ammortized over many problems
   - Algorithim that preprocesses T (the text) is offline. Otherwise, algo is online
 
@@ -39,4 +39,14 @@
   - FM Index
     - Very compact
 
+- k-mer index size variablility:
+  - use offsets strategy to reduce size of index - trade off requires increasing # of queries needed to determine if there's a m - use offsets strategy to reduce size of index - trade off requires increasing # of queries needed to determine if there's a match
+- subsequence of s: string of chars also occuring in s in the same order
+  - all substrings are sequences, not all sequences are substrings
 
+- Approximate matching, Hamming and edit distance
+  - Algos for exact matches are not going to be sufficient for DNA analysis because of sequencing
+    errors etc
+  - Haming distance is the minimum # substituions needed to turn one into the other
+  - Levenshtein idstance is the minimum # edits (subs, inserts, dels) needed to turn one into the other
+    - X/Y are not required to be the same length
