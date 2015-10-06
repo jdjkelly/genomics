@@ -1,0 +1,26 @@
+- Why Genomics?
+  - > 99.9% identical. Remarkable amount of diversity given small amount of changes.
+  - Central dogma of biology:
+    - Information flows in a signal direction from DNA -> RNA -> protein
+    - Xons -> transcription -> RNA -> translation -> Protein
+  - However, information *can* flow the other way
+    - Proteins themselves go back and bind to the DNA itself and turn it on/off
+    - Features on the DNA that are effected by the proteins
+  - How do we measure mutations? DNA?
+    - Sequencing has accelerated
+    - $ per genome equivalent: http://www.genome.gov/sequencingcosts/
+
+- What is genomics?
+  - Genomics is the study of genomes. The genome is the set of molecular instructions inside of your body.
+  - "The branch of molecular biology concerned with the structure, function, evoluition and mapping of genomes."
+  - Structure:
+    - 4 base nucleotides
+    - 23 Chromosome pairs, 22 are from mom/dad, + 1 X/Y (XX or YX)
+  - Evolution:
+    - Sequences change over evolutionary periods
+
+- What is genomic data science?
+  - Intersection of biology, stats, comp sci
+  - Statistical genomics, bioinformatics
+  - Start with some subjects, collect samples, prepare samples, sequence them, align reads with reference genome
+  - Experimental design
