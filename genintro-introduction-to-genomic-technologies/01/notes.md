@@ -24,3 +24,41 @@
   - Statistical genomics, bioinformatics
   - Start with some subjects, collect samples, prepare samples, sequence them, align reads with reference genome
   - Experimental design
+
+- Just Enough Cell Biology
+  - Eukaryotes & Prokaryotes (bacteria and archaea)
+    - Euks have cell nuclaei, Proks don't
+  - Eukaryotic cells have a nucleus. Even single-celled eukaryotes like yeast.
+  - Inside a eukaryotic cells sequester Nucleus -> Chromosome -> DNA
+    - Mitochondrion has its own DNA, responsible for energy metabolism
+      - Perhaps an independent prokayrote 
+  - Meiosis: during sexual reproduction
+    - Recombination: chromosomes stick to each other, "cross over" - in humans ~1 cross over per chromosome
+    - During the course of cell division, every child will get different recombinations
+
+- Important molecules in molecular biology
+  - DNA has four different nucleotides: Adenine, Guanine, Cytosine, Thymine
+    - Purines: A, G
+    - Pyrimidines: CT
+  - "Binding" in DNA means that if I know one strand I can infer the structure of the other
+  - 5' (five prime) and 3' (three prime) notation for directionality
+  - Another critical molecule: RNA
+    - Biggest difference with RNA is no Thymine, instead: Uracil
+    - Single stranded (although they can form double stranded complexes)
+    - From RNA we create proteins
+    - DNA is the stuff of inheritance; RNA uses a template to make proteins, but is not the stuff of inheritance
+    - DNA is a "program" that we read out, which starts with RNA, which makes proteins
+    - RNA translation: codons
+      - Every combination of the three letters of RNA encodes an amino acid (64, 3 "stop codons")
+
+- Human genome project
+  - Department Energy Project
+  - Goals: $1/base!
+
+- From genotype to phenotype
+  - Genotype: sequences of genes which determine how body functions
+  - Phenotype: everything else - observable traits. Some things here are determined by genotype.
+  - Mendel's pea experiment
+  - Using genome sequences -> Principal Components Analysis; extract axis on which they vary the most, reduce to 2 dimensions and plot
+    - Regionalization of genetic traits
+
